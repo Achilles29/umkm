@@ -1,0 +1,4 @@
+[
+  {"key":"direct_product","name":"Tanya produk langsung","body":"Halo {{store_name}}, saya {{customer_name}}. Saya tertarik dengan {{product_name}} yang saya temukan di Rembang UMKM Hub. Apakah masih tersedia?\n\nReferensi: {{reference_no}}"},
+  {"key":"cart_per_store","name":"Rincian keranjang per toko","body":"Halo {{store_name}}, saya {{customer_name}}. Saya ingin menanyakan produk berikut dari Rembang UMKM Hub:\n{{items}}\n\nMohon informasi harga akhir, ketersediaan, dan cara transaksi langsung.\nReferensi: {{reference_no}}"}
+]

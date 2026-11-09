@@ -1,0 +1,13 @@
+.staff-list-filter{display:flex;flex-wrap:wrap;align-items:end;gap:12px;margin:0 0 18px;padding:16px;border:1px solid #e2ebf4;border-radius:12px;background:#f8fbfe}
+.staff-list-filter>label{display:flex;flex:1 1 180px;flex-direction:column;gap:6px;min-width:145px;color:#58718d;font-size:12px;font-weight:700}
+.catalog-panel .staff-list-filter>label{display:flex;margin:0}
+.staff-list-filter input,.staff-list-filter select,.staff-list-size select{width:100%;min-height:40px;padding:8px 11px;border:1px solid #d4e2ef;border-radius:8px;background:#fff;color:#244563;font-size:13px}
+.staff-list-filter button,.staff-list-filter>a{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:8px 15px;border:1px solid #2175b4;border-radius:8px;background:#2175b4;color:#fff;text-decoration:none;font-size:12px;font-weight:800;cursor:pointer}
+.staff-list-filter>a{border-color:#d4e2ef;background:#fff;color:#49789f}
+.staff-list-size{flex:0 0 130px!important;min-width:110px!important}
+.staff-pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px;margin-top:20px}
+.staff-pagination a,.staff-pagination span{display:grid;place-items:center;min-width:34px;height:34px;padding:0 7px;border:1px solid #d6e4f0;border-radius:8px;color:#457ca6;text-decoration:none;font-size:12px;font-weight:800}
+.staff-pagination a.active{border-color:#2278b5;background:#2278b5;color:#fff}
+.staff-pagination span{border:0}
+.staff-list-count{margin:0 0 14px;color:#67839e;font-size:13px;font-weight:700}
+@media(max-width:600px){.staff-list-filter{padding:12px}.staff-list-filter>label{flex-basis:100%}.staff-list-size{flex:1 1 110px!important}.staff-list-filter button,.staff-list-filter>a{flex:1}}

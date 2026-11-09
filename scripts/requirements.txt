@@ -1,0 +1,4 @@
+cryptography==46.0.7
+openpyxl==3.1.5
+PyMySQL==1.2.3
+qrcode==8.2

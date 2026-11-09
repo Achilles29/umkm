@@ -1,0 +1,1 @@
+<footer class="staff-app-footer"><div class="staff-app-footer-inner"><div><strong>Rembang UMKM Hub</strong><small>Panel Pengelola</small></div><span>© <?= date('Y') ?> Rembang UMKM Hub</span><a href="<?= base_url() ?>" target="_blank" rel="noopener">Beranda publik ↗</a></div></footer>

@@ -1,0 +1,14 @@
+.staff-admin-workspace{display:flex;flex-direction:column;min-height:100vh}
+body.staff-page-body{display:flex;flex-direction:column;min-height:100vh;padding-bottom:0}
+.staff-body .staff-content-main{flex:1;width:100%;max-width:1500px;margin:0 auto;padding:30px 34px 48px}
+.staff-body .admin-dashboard-panel,.staff-body .event-admin-card,.staff-body .staff-panel{border-color:#dce7f1;border-radius:16px;box-shadow:0 9px 28px rgba(22,56,101,.035)}
+.staff-app-footer{flex:0 0 auto;margin-top:auto;border-top:1px solid #e1e9f3;background:#fff}
+.staff-app-footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;max-width:1500px;margin:0 auto;padding:18px 34px;color:#8398ad;font-size:11px}
+.staff-app-footer-inner>div{display:flex;align-items:baseline;gap:8px}.staff-app-footer-inner strong{color:#335474;font-size:12px}.staff-app-footer-inner small{font-size:10px}.staff-app-footer-inner a{color:#3576aa;text-decoration:none;font-weight:800}
+.staff-overview-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin:1px 0 23px}.staff-overview-heading h1{margin:8px 0 4px;color:#17395f;font-family:'Plus Jakarta Sans',Arial,sans-serif;font-size:30px;letter-spacing:-.045em}.staff-overview-heading p{margin:0;color:#7890a8;font-size:13px}.staff-overview-heading>a{display:inline-flex;align-items:center;gap:12px;min-height:36px;padding:9px 13px;border:1px solid #d7e6f3;border-radius:9px;background:#fff;color:#2d72a9;text-decoration:none;font-size:11px;font-weight:800}
+.admin-stats.has-five{grid-template-columns:repeat(5,minmax(0,1fr))}.admin-stats.has-five .admin-stat{min-width:0}.admin-stats.has-five .admin-stat small{line-height:1.4}
+@media(max-width:1380px){.admin-stats.has-five{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:960px){.staff-body .staff-content-main{padding:21px 16px 35px}.staff-app-footer-inner{padding:18px 16px calc(84px + env(safe-area-inset-bottom))}.admin-stats.has-five{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.staff-overview-heading{align-items:flex-start;flex-direction:column;gap:13px}.staff-overview-heading h1{font-size:25px}.staff-app-footer-inner{align-items:flex-start;flex-direction:column;gap:8px}.staff-app-footer-inner>div{flex-direction:column;gap:1px}}
+@media(max-width:360px){.admin-stats.has-five{grid-template-columns:1fr}}
+@media(max-width:960px) and (min-width:361px){.admin-stats.has-five .admin-stat:last-child{grid-column:span 2}}

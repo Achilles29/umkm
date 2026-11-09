@@ -1,0 +1,3 @@
+body.staff-page-body{padding-left:272px;background:#f3f7fc}
+body.staff-page-body .staff-main{max-width:1450px;margin-right:auto;margin-left:auto}
+@media(max-width:960px){body.staff-page-body{padding-left:0;padding-bottom:75px}}

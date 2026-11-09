@@ -1,0 +1,7 @@
+/.secrets/
+/var/
+/public/assets/*.map
+__pycache__/
+*.pyc
+/docs/akun_awal_rahasia.md
+/docs/akun_umkm_excel_rahasia.csv

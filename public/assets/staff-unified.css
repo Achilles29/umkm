@@ -1,0 +1,19 @@
+.staff-unified-body .staff-admin-workspace{display:flex;flex-direction:column;min-height:100vh}
+.staff-unified-body .staff-unified-main{flex:1;width:min(100%,1500px);max-width:1500px;min-width:0;margin:0 auto;padding:30px 34px 48px}
+.staff-unified-body .staff-hero,.staff-unified-body .staff-overview-heading,.staff-unified-body .event-admin-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;max-width:none;margin:0 0 24px;padding:0;background:none;border:0;box-shadow:none}
+.staff-unified-body .staff-hero>div,.staff-unified-body .staff-overview-heading>div,.staff-unified-body .event-admin-heading>div{min-width:0}
+.staff-unified-body .staff-hero h1,.staff-unified-body .staff-overview-heading h1,.staff-unified-body .event-admin-heading h1{margin:7px 0 5px;color:#17395f;font-family:'Plus Jakarta Sans',Arial,sans-serif;font-size:30px;font-weight:800;line-height:1.22;letter-spacing:-.04em}
+.staff-unified-body .staff-hero p,.staff-unified-body .staff-overview-heading p,.staff-unified-body .event-admin-heading p{margin:0;color:#7890a8;font-size:13px;line-height:1.55}
+.staff-unified-body .staff-kicker,.staff-unified-body .admin-overline,.staff-unified-body .event-admin-heading .admin-overline{color:#6f92ba;font-size:10px;font-weight:800;letter-spacing:.16em}
+.staff-unified-body .staff-panel,.staff-unified-body .member-panel,.staff-unified-body .event-admin-card,.staff-unified-body .admin-dashboard-panel{width:100%;max-width:none;min-width:0;margin:0 0 18px;padding:24px;border:1px solid #dce7f1;border-radius:16px;background:#fff;box-shadow:0 9px 28px rgba(22,56,101,.035)}
+.staff-unified-body .staff-panel h2,.staff-unified-body .member-panel h2,.staff-unified-body .event-admin-card h2{margin-top:0;color:#17395f;font-family:'Plus Jakarta Sans',Arial,sans-serif;font-size:19px;letter-spacing:-.025em}
+.staff-unified-body .catalog-panel{max-width:none}
+.staff-unified-body .category-request-grid,.staff-unified-body .category-review-panel{width:100%;max-width:none}
+.staff-unified-body .staff-business-grid,.staff-unified-body .staff-banner-layout,.staff-unified-body .staff-location-layout,.staff-unified-body .member-detail-grid,.staff-unified-body .category-request-grid{align-items:start}
+.staff-unified-body .staff-page-actions{margin:0 0 14px}
+.staff-unified-body .staff-hero .staff-page-actions{flex:0 0 auto;align-self:center;margin:0}
+.staff-unified-body .staff-hero .staff-page-actions a{min-height:36px;padding:9px 13px;font-size:11px}
+.staff-unified-body .staff-back-link,.staff-unified-body .member-back,.staff-unified-body .event-back{display:inline-flex;margin:0 0 16px;color:#3578aa;text-decoration:none;font-size:12px;font-weight:800}
+.staff-unified-body .staff-app-footer{width:100%}
+@media(max-width:960px){.staff-unified-body .staff-unified-main{padding:21px 16px 94px}}
+@media(max-width:600px){.staff-unified-body .staff-hero,.staff-unified-body .staff-overview-heading,.staff-unified-body .event-admin-heading{align-items:flex-start;flex-direction:column;gap:12px}.staff-unified-body .staff-hero .staff-page-actions{align-self:flex-start}.staff-unified-body .staff-hero h1,.staff-unified-body .staff-overview-heading h1,.staff-unified-body .event-admin-heading h1{font-size:25px}.staff-unified-body .staff-panel,.staff-unified-body .member-panel,.staff-unified-body .event-admin-card,.staff-unified-body .admin-dashboard-panel{padding:18px}}

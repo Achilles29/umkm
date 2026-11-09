@@ -1,0 +1,11 @@
+[
+  {"slug":"kuliner","name":"Kuliner","children":[["rumah-makan","Rumah Makan dan Restoran"],["jajanan","Jajanan dan Makanan Siap Saji"],["oleh-oleh","Oleh-oleh Khas Rembang"],["makanan-kemasan","Makanan Kemasan"],["minuman","Minuman"],["katering","Katering"]]},
+  {"slug":"batik-fesyen","name":"Batik dan Fesyen","children":[["batik","Batik"],["pakaian","Pakaian"],["alas-kaki","Alas Kaki"],["tas-aksesoris","Tas dan Aksesoris"]]},
+  {"slug":"kerajinan","name":"Kerajinan dan Rumah","children":[["suvenir","Suvenir"],["dekorasi","Dekorasi Rumah"],["mebel","Mebel"],["perlengkapan-rumah","Perlengkapan Rumah"]]},
+  {"slug":"hasil-laut","name":"Hasil Laut","children":[["ikan-segar","Ikan dan Hasil Laut Segar"],["olahan-laut","Olahan Hasil Laut"]]},
+  {"slug":"pertanian","name":"Pertanian dan Olahan","children":[["hasil-tani","Hasil Pertanian"],["pangan-olahan","Pangan Olahan"],["tanaman","Tanaman dan Bibit"]]},
+  {"slug":"kecantikan","name":"Kecantikan dan Perawatan","children":[["produk-perawatan","Produk Perawatan"],["salon-barbershop","Salon dan Pangkas Rambut"]]},
+  {"slug":"jasa","name":"Jasa Lokal","children":[["servis-perbaikan","Servis dan Perbaikan"],["fotografi-kreatif","Fotografi dan Kreatif"],["kursus-pelatihan","Kursus dan Pelatihan"],["jasa-lainnya","Jasa Lainnya"]]},
+  {"slug":"ritel","name":"Toko dan Kebutuhan Harian","children":[["toko-kelontong","Toko Kelontong"],["perlengkapan-usaha","Perlengkapan Usaha"]]},
+  {"slug":"wisata","name":"Wisata dan Penginapan","children":[["penginapan","Penginapan"],["pengalaman-wisata","Pengalaman Wisata"]]}
+]

@@ -1,0 +1,11 @@
+<?php $page_title='Master data'; $this->load->view('staff/_layout_start',compact('user','page_title')); ?>
+<section class="staff-hero"><div><span class="staff-kicker">REFERENSI APLIKASI</span><h1>Master data</h1><p>Kelola kategori etalase dan periksa klasifikasi resmi, skala usaha, serta kode wilayah yang dipakai registri.</p></div></section>
+<?php $master_tab='home';$this->load->view('staff/_master_tabs',compact('master_tab')); ?>
+<div class="master-card-grid">
+<a class="staff-panel master-card" href="<?= site_url('pengelola/master/kategori') ?>"><span>◇</span><strong>Kategori etalase</strong><p><?= number_format($counts['ref_categories'],0,',','.') ?> kategori produk dan toko. Nama, urutan, dan struktur kategori dapat dikelola petugas.</p><b>Lihat kategori →</b></a>
+<a class="staff-panel master-card" href="<?= site_url('pengelola/master/kbli') ?>"><span>▤</span><strong>KBLI</strong><p><?= number_format($counts['ref_kbli_codes'],0,',','.') ?> kode klasifikasi usaha. Versi dan kode dipisahkan dari kategori etalase.</p><b>Lihat klasifikasi →</b></a>
+<a class="staff-panel master-card" href="<?= site_url('pengelola/master/skala') ?>"><span>▥</span><strong>Skala usaha</strong><p><?= number_format($counts['ref_business_scales'],0,',','.') ?> skala pada referensi registri.</p><b>Lihat skala →</b></a>
+<a class="staff-panel master-card" href="<?= site_url('pengelola/master/wilayah') ?>"><span>⌖</span><strong>Wilayah administrasi</strong><p><?= number_format($counts['ref_districts'],0,',','.') ?> kecamatan dan <?= number_format($counts['ref_villages'],0,',','.') ?> desa atau kelurahan.</p><b>Lihat wilayah →</b></a>
+</div>
+<section class="staff-panel"><h2>Data spasial dan registri</h2><p><?= number_format($counts['gis_area_boundaries'],0,',','.') ?> batas wilayah telah diunggah. Peta registri memakai penanda agregat kecamatan ketika batas wilayah belum tersedia.</p><div class="master-actions"><a class="btn btn-primary" href="<?= site_url('pengelola/peta-umkm') ?>">Buka peta persebaran</a><a class="btn btn-outline-primary" href="<?= site_url('pengelola/wilayah') ?>">Kelola batas GeoJSON</a><a class="btn btn-outline-primary" href="<?= site_url('pengelola/registri') ?>">Buka registri usaha</a></div></section>
+<?php $this->load->view('staff/_layout_end'); ?>

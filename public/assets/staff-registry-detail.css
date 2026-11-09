@@ -1,0 +1,24 @@
+.registry-hero{margin-bottom:20px}
+.registry-tabs{display:flex;gap:7px;overflow-x:auto;max-width:100%;margin:0 0 19px;padding:4px 4px 10px;border-bottom:1px solid #dce7f1;scrollbar-width:thin}
+.registry-tabs a{display:inline-flex;align-items:center;justify-content:center;flex:none;min-height:40px;padding:9px 15px;border-radius:10px;color:#4e6a86;text-decoration:none;font-size:13px;font-weight:700;white-space:nowrap}
+.registry-tabs a:hover{background:#edf4fa;color:#175b97}
+.registry-tabs a.is-active{background:#1764a3;color:#fff;box-shadow:0 5px 13px rgba(23,100,163,.18)}
+.registry-summary{max-width:700px}
+.registry-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 20px}
+.registry-form-grid label,.registry-nib-form>label,.registry-add-form label{display:flex;flex-direction:column;gap:7px;color:#536d90;font-size:12px;font-weight:700}
+.registry-form-grid small,.registry-nib-form small,.registry-add-form small{font-size:11px;font-weight:500;color:#8495a9}
+.registry-field-wide{grid-column:1/-1}
+.registry-profile-form>.btn,.registry-person-form>.btn,.registry-add-form>.btn,.registry-nib-form>.btn{margin-top:20px}
+.registry-code-list>div,.registry-commodity-item{padding:14px 0;border-bottom:1px solid #e6edf5}
+.registry-code-list strong,.registry-commodity-item strong{display:block;color:#284b73;font-size:13px}
+.registry-code-list small,.registry-commodity-item small{display:block;margin-top:5px;color:#8295aa;font-size:11px}
+.registry-code-list p{margin:8px 0 0}
+.registry-commodity-item form{margin:8px 0 0}
+.registry-commodity-item form+form{margin-top:5px}
+.registry-commodity-item .registry-form-grid{align-items:start}
+.registry-add-form{padding-top:14px}
+.registry-add-form h3,.registry-nib-form h3{font-size:15px;color:#234c76}
+.registry-nib-form{max-width:620px}
+.registry-nib-form>label{margin-top:15px}
+.registry-nib-form>.staff-checkbox{flex-direction:row;align-items:center}
+@media(max-width:680px){.registry-form-grid{grid-template-columns:1fr}.registry-tabs{margin-left:-3px;margin-right:-3px}.registry-tabs a{font-size:12px;padding:8px 12px}}

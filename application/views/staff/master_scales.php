@@ -1,0 +1,5 @@
+<?php $page_title='Master skala usaha'; $this->load->view('staff/_layout_start',compact('user','page_title')); ?>
+<section class="staff-hero"><div><span class="staff-kicker">MASTER DATA</span><h1>Skala usaha</h1><p>Referensi skala pada profil registri. Penetapan skala sebuah usaha memerlukan data dan peninjauan sesuai ketentuan.</p></div></section>
+<?php $master_tab='scales';$this->load->view('staff/_master_tabs',compact('master_tab')); ?>
+<section class="staff-panel"><h2>Daftar skala</h2><div class="table-responsive"><table class="table"><thead><tr><th>Kode</th><th>Nama</th><th>Urutan</th><th>Profil tercatat</th></tr></thead><tbody><?php foreach ($rows as $row): ?><tr><td><code><?= html_escape($row['code']) ?></code></td><td><strong><?= html_escape($row['name']) ?></strong></td><td><?= (int)$row['sort_order'] ?></td><td><?= number_format((int)$row['business_count'],0,',','.') ?></td></tr><?php endforeach; ?></tbody></table></div><p>Master skala bersifat referensi. Kategori etalase dan kode KBLI dikelola pada halaman masing-masing.</p></section>
+<?php $this->load->view('staff/_layout_end'); ?>
